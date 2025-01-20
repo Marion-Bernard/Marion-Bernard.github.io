@@ -12,7 +12,18 @@
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.vue": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
