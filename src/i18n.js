@@ -18,7 +18,8 @@ const messages = {
 }
 
 const i18n = createI18n({
-  locale: 'fr', // langue par défaut
+  locale: 'fr',
+  fallbackLocale: 'fr',
   messages,
 })
 
