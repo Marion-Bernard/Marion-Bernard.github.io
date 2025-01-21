@@ -1,35 +1,26 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Experience from './components/ExperienceComponent.vue'
+import { RouterView } from 'vue-router'
+import NavBarComponent from './components/NavBarComponent.vue'
 </script>
 
 <template>
-  <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">My Portfolio</a>
-        <div class="d-flex">
-          <button class="btn btn-outline-success" @click="changeLanguage('en')">EN</button>
-          <button class="btn btn-outline-success ms-2" @click="changeLanguage('fr')">FR</button>
-        </div>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/Experience">About</RouterLink>
-      </div>
-    </nav>
-    <Experience />
-
+  <div id="app" class="bg-dark">
+    <NavBarComponent />
     <router-view></router-view>
+    <footer>
+      <a href="https://www.flaticon.com/fr/icones-gratuites/france" title="france icônes"
+        >France icônes créées par Freepik - Flaticon</a
+      >
+      <a href="https://www.flaticon.com/fr/icones-gratuites/royaume-uni" title="royaume-uni icônes"
+        >Royaume-uni icônes créées par Freepik - Flaticon</a
+      >
+    </footer>
   </div>
 </template>
 
 <script>
 export default {
   name: 'App',
-  methods: {
-    changeLanguage(language) {
-      this.$i18n.locale = language
-    },
-  },
 }
 </script>
 
