@@ -4,6 +4,7 @@
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: #181938;
 }
 
 a.link-white {
@@ -13,9 +14,4 @@ a.link-white {
 
 a.link-white:hover {
   color: rgba(255, 255, 255);
-}
-
-.presentation-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }

@@ -4,7 +4,7 @@ import NavBarComponent from './components/NavBarComponent.vue'
 </script>
 
 <template>
-  <div id="app" class="bg-dark">
+  <div id="app">
     <NavBarComponent />
     <router-view></router-view>
     <footer>
