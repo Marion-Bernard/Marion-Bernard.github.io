@@ -2,23 +2,32 @@ import { createI18n } from 'vue-i18n'
 
 const messages = {
   en: {
-    presentation: 'Presentation',
-    experience: 'Experience',
+    experience: 'Working experiences',
+    formation: 'Formation',
     skills: 'Skills',
     projects: 'Projects',
     contact: 'Contact',
+    presentation: {
+      label: 'ABout me',
+      title: 'From agricultural engineer to web developer',
+    },
   },
   fr: {
-    presentation: 'Présentation',
     experience: 'Expérience',
-    skills: 'Langages et outils',
+    formation: 'Formation',
+    skills: 'Compétences',
     projects: 'Projets',
     contact: 'Contact',
+    presentation: {
+      label: 'A propos de moi',
+      title: "D'ingénieure agronome à développeuse web",
+    },
   },
 }
 
 const i18n = createI18n({
-  locale: 'fr', // langue par défaut
+  locale: 'fr',
+  fallbackLocale: 'fr',
   messages,
 })
 
