@@ -2,18 +2,36 @@ import { createI18n } from 'vue-i18n'
 
 const messages = {
   en: {
-    experience: 'Working experiences',
+    main: {
+      work: 'Work',
+      voluntering: 'Voluntering',
+      internship: 'Internship',
+      all: 'Show all',
+    },
+    experience: {
+      label: 'Working experiences',
+      today: 'Today',
+    },
     formation: 'Formation',
     skills: 'Skills',
     projects: 'Projects',
     contact: 'Contact',
     presentation: {
-      label: 'ABout me',
+      label: 'About me',
       title: 'From agricultural engineer to web developer',
     },
   },
   fr: {
-    experience: 'Expérience',
+    main: {
+      work: 'Travail',
+      voluntering: 'Bénévolat',
+      internship: 'Alternance / Stage',
+      all: 'Tout afficher',
+    },
+    experience: {
+      label: 'Expériences',
+      today: "Aujourd'hui",
+    },
     formation: 'Formation',
     skills: 'Compétences',
     projects: 'Projets',
