@@ -1,7 +1,13 @@
 @import './base.css';
 
+body {
+  background-color: #181938;
+  height: 100%;
+}
+
 #app {
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: #181938;

@@ -1,0 +1,108 @@
+{
+  "workingExperience": [
+    {
+      "id": 1,
+      "company": "Articque by Chapsvision",
+      "link": "https://www.articque.com/",
+      "positionFr": "Alternante Conceptrice Développeuse d'application",
+      "positionEn": "Internship - Web Developer",
+      "startDate": "Oct. 2024",
+      "endDate": "Oct. 2025",
+      "icon": "/icons/internship.png",
+      "type": "internship",
+      "descriptionFr": "Développement d'applications web en HTML, CSS et PHP/Symfony",
+      "descriptionEn": "Developing and maintaining web applications using HTML, CSS, PHP/Symfony",
+      "image": "/companies/articque-chapsvision.png"
+    },
+    {
+      "id": 2,
+      "company": "Articque by Chapsvision",
+      "link": "https://www.articque.com/",
+      "positionFr": "Alternante Développeuse Web Fullstack",
+      "positionEn": "Intenrship - Web Developer",
+      "startDate": "Sept. 2023",
+      "endDate": "Sept. 2024",
+      "icon": "/icons/internship.png",
+      "type": "internship",
+      "descriptionFr": "Développement d'un  CMS (Content Management System) en PHP/Symfony, avec EasyAdmin4 et Boostrap, de la conception de la base de données au déploiement sur un serveur de preprod. Egalement chargée de la gestion du site web, sous wordpress : mise à jour de contenu et développements spécifiques (custom post type, lien vers d'autres APIs)",
+      "descriptionEn": "Development of a CMS (Content Management System) in PHP/Symfony, with EasyAdmin4 and Bootstrap, from database design to deployment on a pre-production server. Also responsible for managing the website, built with WordPress: content updates and specific developments (custom post type, integration with other APIs).",
+      "image": "/companies/articque-chapsvision.png"
+    },
+    {
+      "id": 3,
+      "company": "SEPANT",
+      "link": "https://sepant.fr/",
+      "positionFr": "Chargée de mission eau, agriculture et environnement",
+      "positionEn": "Project Manager",
+      "startDate": "2018",
+      "endDate": "2023",
+      "icon": "/icons/work.png",
+      "type": "work",
+      "descriptionFr": "En charge d’une quinzaine de projets sur les thématiques de l’agriculture, l’eau et le changement climatique, avec entres autres : l’animation d’un groupe de bénévoles, la gestion d’une base de données relationnelles, l’utilisation de systèmes d’informations géographiques (QGIS) et de requêtes SQL (PostgreSQL) et la mise à jour du site internet avec wordpress.",
+      "descriptionEn": "Managed environmental protection projects, working closely with teams to ensure the success of sustainability initiatives.",
+      "image": "/companies/sepant.png"
+    },
+    {
+      "id": 4,
+      "company": "Pint of Science",
+      "link": "https://pintofscience.fr/",
+      "positionFr": "Bénévolat - Chargée d'organisation d'évènement ",
+      "positionEn": "Voluntering - Event manager ",
+      "startDate": "2020",
+      "endDate": "today",
+      "icon": "/icons/voluntering.png",
+      "type": "voluntering",
+      "descriptionFr": "Suivis naturalistes, communication interne et gestion du site web",
+      "descriptionEn": "Ecological monitoring, internal communication and website management",
+      "image": "/companies/POS.png"
+    },
+    {
+      "id": 5,
+      "company": "Réserve Naturelle Landes de Monteneuf",
+      "link": "https://reserves-naturelles.org/reserves/landes-de-monteneuf/",
+      "positionFr": "Service Civique - ",
+      "positionEn": "Civic service - ",
+      "startDate": "2017",
+      "endDate": "2018",
+      "icon": "/icons/internship.png",
+      "type": "internship",
+      "descriptionFr": "Suivis naturalistes, communication interne et gestion du site web",
+      "descriptionEn": "Ecological monitoring, internal communication and website management",
+      "image": "/companies/RNR-landes.png"
+    },
+    {
+      "id": 6,
+      "company": "Gold of Bengal",
+      "link": "https://reserves-naturelles.org/reserves/landes-de-monteneuf/",
+      "positionFr": "Bénévolat - Traductrice ",
+      "positionEn": "Voluntering - Translator ",
+      "startDate": "2016",
+      "endDate": "2016",
+      "icon": "/icons/voluntering.png",
+      "type": "voluntering",
+      "descriptionFr": "Gold of Bengal (désormais le Low Tech LAB), est une association ayant pour mission 'd'explorer des possibles pour faire émerger des solutions techniques utiles et durables..'. En 2016, j'ai participé à la traduction de documents techniques en anglais",
+      "descriptionEn": "Gold of Bengal (now the Low Tech LAB) is an organization with the mission 'to explore possibilities to bring about useful and sustainable technical solutions.' In 2016, I participated in translating technical documents into English.",
+      "image": "/companies/Gold-of-bengal.png"
+    }
+  ],
+  "study": [
+    {
+      "id": 1,
+      "institution": "CEFIM - Ecole de la Filière Numérique",
+      "program": "Web Development (2023)",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "description": "Study program focused on web development including HTML, CSS, JavaScript, Vue.js, Node.js, and best practices in software development.",
+      "image": "/assets/schools/cefim-logo.png"
+    },
+    {
+      "id": 2,
+      "institution": "University of Paris",
+      "program": "Agronomy (2015 - 2020)",
+      "startDate": "2015-09-01",
+      "endDate": "2020-06-30",
+      "description": "Bachelor's and Master's degree in agronomy with focus on environmental sustainability, ecosystem management, and sustainable agriculture.",
+      "image": "/assets/schools/paris-university-logo.png"
+    }
+  ]
+}
