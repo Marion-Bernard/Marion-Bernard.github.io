@@ -5,7 +5,7 @@
         <img :src="image" :alt="company" class="company-logo" />
       </a>
       <div class="content-container text-black text-left">
-        <p>
+        <p class="text-center">
           {{ startDate }} - <span v-if="endDate === 'today'">{{ $t('experience.today') }}</span>
           <span v-else>{{ endDate }}</span>
         </p>
@@ -50,7 +50,7 @@ export default {
 .company-logo {
   margin-bottom: 8px;
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
   object-fit: contain;
 }

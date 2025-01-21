@@ -24,8 +24,8 @@
       "endDate": "Sept. 2024",
       "icon": "/icons/internship.png",
       "type": "internship",
-      "descriptionFr": "Développement d'un  CMS (Content Management System) en PHP/Symfony, avec EasyAdmin4 et Boostrap, de la conception de la base de données au déploiement sur un serveur de preprod. Egalement chargée de la gestion du site web, sous wordpress : mise à jour de contenu et développements spécifiques (custom post type, lien vers d'autres APIs)",
-      "descriptionEn": "Development of a CMS (Content Management System) in PHP/Symfony, with EasyAdmin4 and Bootstrap, from database design to deployment on a pre-production server. Also responsible for managing the website, built with WordPress: content updates and specific developments (custom post type, integration with other APIs).",
+      "descriptionFr": "Développement d'un  CMS (Content Management System) en PHP/Symfony, avec EasyAdmin4 et conception de la base de données. Gestion du site web (Wordpress): développements spécifiques (custom post type, lien vers d'autres APIs)",
+      "descriptionEn": "Development of a CMS (Content Management System) in PHP/Symfony, with EasyAdmin4 and  database design. Managing the website (Wordpress): specific developments (custom post type, integration with other APIs).",
       "image": "/companies/articque-chapsvision.png"
     },
     {
@@ -38,7 +38,7 @@
       "endDate": "2023",
       "icon": "/icons/work.png",
       "type": "work",
-      "descriptionFr": "En charge d’une quinzaine de projets sur les thématiques de l’agriculture, l’eau et le changement climatique, avec entres autres : l’animation d’un groupe de bénévoles, la gestion d’une base de données relationnelles, l’utilisation de systèmes d’informations géographiques (QGIS) et de requêtes SQL (PostgreSQL) et la mise à jour du site internet avec wordpress.",
+      "descriptionFr": "En charge d’une quinzaine de projets sur les thématiques de l’agriculture, l’eau et le changement climatique, avec, entre autres, de la gestion de BDD avec Postgrès SQL et des projets SIG avec QGIS.",
       "descriptionEn": "Managed environmental protection projects, working closely with teams to ensure the success of sustainability initiatives.",
       "image": "/companies/sepant.png"
     },
