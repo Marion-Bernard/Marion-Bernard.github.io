@@ -5,10 +5,12 @@ import Skills from '../components/SkillsComponent.vue'
 import Projects from '../components/ProjectsComponent.vue'
 import Contact from '../components/ContactComponent.vue'
 import Credits from '../components/CreditsComponent.vue'
+import Study from '../components/Study/StudyComponent.vue'
 
 const routes = [
   { path: '/', component: Presentation },
   { path: '/experience', component: Experience },
+  { path: '/study', component: Study },
   { path: '/skills', component: Skills },
   { path: '/projects', component: Projects },
   { path: '/contact', component: Contact },

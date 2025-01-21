@@ -12,7 +12,9 @@ const messages = {
       label: 'Working experiences',
       today: 'Today',
     },
-    formation: 'Formation',
+    study: {
+      label: 'Studies',
+    },
     skills: 'Skills',
     projects: 'Projects',
     contact: 'Contact',
@@ -32,7 +34,9 @@ const messages = {
       label: 'Expériences',
       today: "Aujourd'hui",
     },
-    formation: 'Formation',
+    study: {
+      label: 'Formation',
+    },
     skills: 'Compétences',
     projects: 'Projets',
     contact: 'Contact',

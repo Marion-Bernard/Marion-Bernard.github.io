@@ -18,7 +18,7 @@
       "id": 2,
       "company": "Articque by Chapsvision",
       "link": "https://www.articque.com/",
-      "positionFr": "Alternante Développeuse Web Fullstack",
+      "positionFr": "Alternante Développeuse Web Web Mobile",
       "positionEn": "Intenrship - Web Developer",
       "startDate": "Sept. 2023",
       "endDate": "Sept. 2024",
@@ -88,21 +88,43 @@
   "study": [
     {
       "id": 1,
-      "institution": "CEFIM - Ecole de la Filière Numérique",
-      "program": "Web Development (2023)",
-      "startDate": "2023-01-01",
-      "endDate": "2023-12-31",
-      "description": "Study program focused on web development including HTML, CSS, JavaScript, Vue.js, Node.js, and best practices in software development.",
-      "image": "/assets/schools/cefim-logo.png"
+      "institution": "CEFIM",
+      "programEn": "Application Developer and Designer",
+      "programFr": "Conceptrice Développeuse d'Application",
+      "date": "2024 - 2025",
+      "image": "/schools/CEFIM.png"
     },
     {
       "id": 2,
-      "institution": "University of Paris",
-      "program": "Agronomy (2015 - 2020)",
-      "startDate": "2015-09-01",
-      "endDate": "2020-06-30",
-      "description": "Bachelor's and Master's degree in agronomy with focus on environmental sustainability, ecosystem management, and sustainable agriculture.",
-      "image": "/assets/schools/paris-university-logo.png"
+      "institution": "CEFIM",
+      "programEn": "Web Development",
+      "programFr": "Développement Web & Web Mobile",
+      "date": "2023 - 2024",
+      "image": "/schools/CEFIM.png"
+    },
+    {
+      "id": 3,
+      "institution": "AgroCampus Ouest",
+      "programEn": "Agronomist",
+      "programFr": "Ingénieur Agronome",
+      "date": "2014 - 2017",
+      "image": "/schools/ACO.png"
+    },
+    {
+      "id": 4,
+      "institution": "Norwegian University of Life Science",
+      "programEn": "Semester abroad",
+      "programFr": "Semestre à l'étranger",
+      "date": "2015",
+      "image": "/schools/NMBU.png"
+    },
+    {
+      "id": 5,
+      "institution": "Lycée Descartes",
+      "programEn": "Preparatory class BCPST",
+      "programFr": "Prépa BCPST",
+      "date": "2012 - 2014",
+      "image": "/schools/LDT.png"
     }
   ]
 }
