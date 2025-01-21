@@ -4,6 +4,7 @@ import Experience from '../components/Experience/ExperienceComponent.vue'
 import Skills from '../components/SkillsComponent.vue'
 import Projects from '../components/ProjectsComponent.vue'
 import Contact from '../components/ContactComponent.vue'
+import Credits from '../components/CreditsComponent.vue'
 
 const routes = [
   { path: '/', component: Presentation },
@@ -11,6 +12,7 @@ const routes = [
   { path: '/skills', component: Skills },
   { path: '/projects', component: Projects },
   { path: '/contact', component: Contact },
+  { path: '/credits', component: Credits },
 ]
 
 const router = createRouter({
