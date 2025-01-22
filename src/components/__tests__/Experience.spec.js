@@ -11,6 +11,6 @@ describe('Experience', () => {
       },
     })
     // Vérifie si le texte "web" apparaît dans le rendu
-    expect(wrapper.text()).toContain('web')
+    expect(wrapper.text()).toContain('2024')
   })
 })

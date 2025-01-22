@@ -1,20 +1,31 @@
 <template>
   <div class="col-12 col-md-6 col-lg-4">
-    <div class="experience-card mx-3 p-3">
-      <a class="image-container" :href="link" target="_blank">
+    <div class="experience-card rounded mx-3">
+      <a class="image-container rounded-top p-2" :href="link" target="_blank">
         <img :src="image" :alt="company" class="company-logo" />
       </a>
-      <div class="content-container text-black text-left">
+      <div class="content-container text-black text-left p-3 rounded-bottom">
         <p class="text-center">
-          {{ startDate }} - <span v-if="endDate === 'today'">{{ $t('experience.today') }}</span>
+          {{ startDate }} -
+          <span v-if="endDate === 'today'">{{ $t('experience.today') }}</span>
           <span v-else>{{ endDate }}</span>
         </p>
         <p class="accent title-6">
-          <img :src="icon" :alt="icon" class="icon me-3" width="30px" />{{
-            $i18n.locale === 'fr' ? positionFr : positionEn
-          }}
+          <img :src="icon" :alt="icon" class="icon me-3" width="30px" />
+          {{ $i18n.locale === 'fr' ? positionFr : positionEn }}
         </p>
-        <p class="text-left">{{ $i18n.locale === 'fr' ? descriptionFr : descriptionEn }}</p>
+        <div class="button-container d-flex flex-row-reverse">
+          <button
+            @click="toggleDescription"
+            class="btn btn-small btn-outline-info btn-toggle-description"
+          >
+            {{ isDescriptionVisible ? '-' : '+' }}
+          </button>
+        </div>
+
+        <p v-if="isDescriptionVisible" class="text-left">
+          {{ $i18n.locale === 'fr' ? descriptionFr : descriptionEn }}
+        </p>
       </div>
     </div>
   </div>
@@ -36,19 +47,29 @@ export default {
     descriptionEn: String,
     image: String,
   },
+  data() {
+    return {
+      // État de la visibilité de la description
+      isDescriptionVisible: false,
+    }
+  },
+  methods: {
+    // Fonction pour basculer la visibilité de la description
+    toggleDescription() {
+      this.isDescriptionVisible = !this.isDescriptionVisible
+    },
+  },
 }
 </script>
 
 <style scoped>
 .experience-card {
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  background-color: #fff;
+  display: grid;
+  grid-template-rows: auto 1fr;
   height: 100%;
 }
 
 .company-logo {
-  margin-bottom: 8px;
   width: 100%;
   max-width: 200px;
   height: auto;
@@ -58,8 +79,14 @@ export default {
 .image-container {
   width: 100%;
   overflow: hidden;
+  background-color: #fff;
 }
-
+.content-container {
+  background-color: rgb(232, 245, 255);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 .text-left {
   text-align: left;
 }

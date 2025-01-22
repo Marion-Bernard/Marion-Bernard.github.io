@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="footer-container d-flex g-4 text-center justify-center">
+  <div class="footer-container d-flex g-4 mt-4">
     <a href="https://www.linkedin.com/in/marion-bernard/" target="_blank">
       <img class="img-logo" src="/icons/icon-linkedin.png" />
     </a>
@@ -23,8 +23,6 @@ export default {
 <style>
 .footer-container {
   min-height: 50px;
-  display: flex;
-  flex-direction: row;
   gap: 40px;
   justify-content: center;
 }
