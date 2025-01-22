@@ -7,7 +7,6 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Marion-Bernard.github.io',
   plugins: [vue(), vueJsx(), vueDevTools()],
   resolve: {
     alias: {
@@ -15,9 +14,6 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: [
-      'bootstrap', // Assurez-vous d'inclure les modules nécessaires ici
-      // Ajoutez d'autres modules si nécessaire
-    ],
+    include: ['bootstrap'],
   },
 })
