@@ -19,7 +19,7 @@ export default {
   <div class="container text-center text-white my-3">
     <h1 class="mb-2">{{ $t('study.label') }}</h1>
 
-    <div class="experience-list text-left row mt-4 g-4 d-flex align-items-stretch">
+    <div class="study-list text-left row mt-4 g-4 d-flex align-items-stretch">
       <StudyCard
         v-for="study in studies"
         :key="study.id"
@@ -35,10 +35,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-button.active {
-  background-color: var(--custom-accent-1);
-  border-color: var(--custom-accent-1);
-  color: #fff;
-}
-</style>
+<style scoped></style>

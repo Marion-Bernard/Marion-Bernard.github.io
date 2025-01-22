@@ -1,10 +1,10 @@
 <template>
-  <div class="col-12 col-md-6 col-lg-4">
+  <div class="col-12 col-md-6 col-lg-3">
     <div class="experience-card rounded mx-3">
       <a class="image-container rounded-top p-2" :href="link" target="_blank">
         <img :src="image" :alt="company" class="company-logo" />
       </a>
-      <div class="content-container text-black text-left p-3 rounded-bottom">
+      <div class="content-container text-black text-left pt-2 px-3 rounded-bottom">
         <p class="text-center">
           {{ startDate }} -
           <span v-if="endDate === 'today'">{{ $t('experience.today') }}</span>
@@ -15,11 +15,8 @@
           {{ $i18n.locale === 'fr' ? positionFr : positionEn }}
         </p>
         <div class="button-container d-flex flex-row-reverse">
-          <button
-            @click="toggleDescription"
-            class="btn btn-small btn-outline-info btn-toggle-description"
-          >
-            {{ isDescriptionVisible ? '-' : '+' }}
+          <button @click="toggleDescription" class="btn btn-toggle-description">
+            {{ isDescriptionVisible ? '&uarr;' : '&darr;' }}
           </button>
         </div>
 
@@ -49,12 +46,10 @@ export default {
   },
   data() {
     return {
-      // État de la visibilité de la description
       isDescriptionVisible: false,
     }
   },
   methods: {
-    // Fonction pour basculer la visibilité de la description
     toggleDescription() {
       this.isDescriptionVisible = !this.isDescriptionVisible
     },
@@ -68,14 +63,12 @@ export default {
   grid-template-rows: auto 1fr;
   height: 100%;
 }
-
 .company-logo {
   width: 100%;
   max-width: 200px;
   height: auto;
   object-fit: contain;
 }
-
 .image-container {
   width: 100%;
   overflow: hidden;
@@ -89,5 +82,8 @@ export default {
 }
 .text-left {
   text-align: left;
+}
+p {
+  margin-bottom: 0.5rem;
 }
 </style>
