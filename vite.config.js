@@ -14,4 +14,10 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  optimizeDeps: {
+    include: [
+      'bootstrap', // Assurez-vous d'inclure les modules nécessaires ici
+      // Ajoutez d'autres modules si nécessaire
+    ],
+  },
 })
