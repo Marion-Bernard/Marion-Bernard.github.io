@@ -126,5 +126,112 @@
       "date": "2012 - 2014",
       "image": "/schools/LDT.png"
     }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "title": "HTML",
+      "tag": "FRONT",
+      "logo": "/skills/html.png",
+      "level": 4
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "tag": "FRONT",
+      "logo": "/skills/css.png",
+      "level": 4
+    },
+    {
+      "id": 3,
+      "title": "Bootstrap",
+      "tag": "FRONT",
+      "logo": "/skills/bootstrap.png",
+      "level": 4
+    },
+    {
+      "id": 4,
+      "title": "JavaScript",
+      "tag": "FRONT",
+      "logo": "/skills/js.png",
+      "level": 4
+    },
+    {
+      "id": 5,
+      "title": "REACT",
+      "tag": "FRONT",
+      "logo": "/skills/react.png",
+      "level": 2
+    },
+    {
+      "id": 6,
+      "title": "VUEJS",
+      "tag": "FRONT",
+      "logo": "/skills/vue.png",
+      "level": 3
+    },
+    {
+      "id": 7,
+      "title": "PHP",
+      "tag": "BACK",
+      "logo": "/skills/php.png",
+      "level": 4
+    },
+    {
+      "id": 8,
+      "title": "Symfony",
+      "tag": "BACK",
+      "logo": "/skills/symfony.png",
+      "level": 4
+    },
+    {
+      "id": 9,
+      "title": "SQL",
+      "tag": "BACK",
+      "logo": "/skills/sql.png",
+      "level": 4
+    },
+    {
+      "id": 10,
+      "title": "Postgrès",
+      "tag": "BACK",
+      "logo": "/skills/postgres.png",
+      "level": 3
+    },
+    {
+      "id": 11,
+      "title": "Python",
+      "tag": "BACK",
+      "logo": "/skills/python.png",
+      "level": 2
+    },
+    {
+      "id": 12,
+      "title": "Figma",
+      "tag": "app",
+      "logo": "/skills/figma.png",
+      "level": 2
+    },
+    {
+      "id": 13,
+      "title": "Wordpress",
+      "tag": "app",
+      "logo": "/skills/wordpress.png",
+      "level": 3
+    },
+    {
+      "id": 14,
+      "title": "Github",
+      "tag": "app",
+      "logo": "/skills/github.png",
+      "level": 3
+    },
+    {
+      "id": 15,
+      "title": "Docker",
+      "tag": "app",
+      "logo": "/skills/docker.png",
+      "level": 1
+    }
   ]
 }

@@ -15,7 +15,9 @@ const messages = {
     study: {
       label: 'Studies',
     },
-    skills: 'Skills',
+    skill: {
+      label: 'Skills',
+    },
     projects: 'Projects',
     contact: 'Contact',
     presentation: {
@@ -35,9 +37,11 @@ const messages = {
       today: "Aujourd'hui",
     },
     study: {
-      label: 'Formation',
+      label: 'Formations',
     },
-    skills: 'Compétences',
+    skill: {
+      label: 'Compétences',
+    },
     projects: 'Projets',
     contact: 'Contact',
     presentation: {

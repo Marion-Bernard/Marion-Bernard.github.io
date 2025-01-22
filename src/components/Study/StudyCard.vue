@@ -1,9 +1,9 @@
 <template>
   <div class="col-6 col-sm-4 col-md-3 col-lg-2">
     <div class="study-card rounded mx-3">
-      <a class="image-container rounded-top p-2" :href="link" target="_blank">
-        <img :src="image" :alt="company" class="school-logo" />
-      </a>
+      <div class="image-container rounded-top p-2">
+        <img :src="image" :alt="institution" class="school-logo" />
+      </div>
       <div class="content-container text-black text-left px-3 pb-2 rounded-bottom">
         <p class="text-center">{{ date }}</p>
         <p class="accent title-6 text-center">
