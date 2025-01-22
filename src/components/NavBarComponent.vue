@@ -6,7 +6,7 @@
       <RouterLink class="link-white" to="/Experience">{{ $t('experience.label') }}</RouterLink>
       <RouterLink class="link-white" to="/Study">{{ $t('study.label') }}</RouterLink>
       <RouterLink class="link-white" to="/Skills">{{ $t('skill.label') }}</RouterLink>
-      <RouterLink to="/Projects" class="link-white">{{ $t('projects') }}</RouterLink>
+      <RouterLink to="/Projects" class="link-white">{{ $t('projects.label') }}</RouterLink>
       <RouterLink to="/Contact" class="link-white">{{ $t('contact') }}</RouterLink>
       <div class="d-flex">
         <button class="btn" @click="changeLanguage('en')">
