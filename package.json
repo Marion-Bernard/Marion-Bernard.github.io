@@ -13,7 +13,8 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "prepare": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "*.js": [
@@ -46,6 +47,7 @@
     "eslint-plugin-cypress": "^4.1.0",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-vue": "^9.30.0",
+    "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "jsdom": "^25.0.1",
     "pre-commit": "^1.2.2",
